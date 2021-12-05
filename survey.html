@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+        <label id="name-label"> Name: </label>
+        <input type="text" name="name" required id="name" placeholder="First Name"><br>
+
+        <label id="email-label"> Email: </label>
+        <input type="email" name="email" required id="email" placeholder="email"><br>
+
+        <label id="number-label"> Numbers: </label>
+        <input type="number" name="number" min="0" max="10" required id="number" placeholder="$"><br>
+
+        <select id="dropdown" name="cars">
+            <option value="actual value 1">Land Rover</option>
+            <option value="actual value 2">Mini</option>
+            <option value="actual value 3">Jeep</option>
+            <option value="actual value 3">Other</option>
+        </select>
+
+        <br>
+
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+
+        <br>
+
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+        <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br>
+
+        <textarea type="textarea" placeholder="additional comments"></textarea>
+
+        <input type="submit" id="submit">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
